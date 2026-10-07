@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="div-outer">
+        <div class="p" id="p"></div>
+        <div class="div-inner" id="divin">
+            <button onclick="button(this)">7</button>
+            <button onclick="button(this)">8</button>
+            <button onclick="button(this)">9</button>
+            <button onclick="button(this)">+</button>
+            <button onclick="button(this)">4</button>
+            <button onclick="button(this)">5</button>
+            <button onclick="button(this)">6</button>
+            <button onclick="button(this)">-</button>
+            <button onclick="button(this)">1</button>
+            <button onclick="button(this)">2</button>
+            <button onclick="button(this)">3</button>
+            <button onclick="button(this)">*</button>
+            <button onclick="backspace()">⌫</button>
+            <button onclick="button(this)">0</button>
+            <button onclick="button(this)">.</button>
+            <button onclick="button(this)">/</button>
+            <button class="equal" id="equal" onclick="equal()">=</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
